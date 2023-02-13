@@ -1,0 +1,24 @@
+1676205131143	geckodriver	INFO	Listening on 127.0.0.1:55465
+1676205134270	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Collins\\AppData\\Local\\Temp\\rust_mozprofileSN80JT"
+1676205135660	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676205135668	Marionette	INFO	Listening on port 55475
+Read port: 55475
+1676205136358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Collins\\AppData\\Local\\Temp\\rust_mozprofileSN80JT\\search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+[Parent 13252, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1676205493115	Marionette	INFO	Stopped listening on port 55475
+Dynamically enable window occlusion 1
+1676205582086	geckodriver	INFO	Listening on 127.0.0.1:55834
+1676205585193	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Collins\\AppData\\Local\\Temp\\rust_mozprofilePDWale"
+1676205585995	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676205586001	Marionette	INFO	Listening on port 55844
+Read port: 55844
+1676205586599	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Collins\\AppData\\Local\\Temp\\rust_mozprofilePDWale\\search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
