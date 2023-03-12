@@ -1,5 +1,5 @@
 import pandas as pd
-data = pd.read_excel("webscraping-data-store/car_data.xlsx")
+data = pd.read_excel("./webscraping-data-store/car_data.xlsx")
 #checking for null values in the data data
 data.isna().sum()
 #filling null values

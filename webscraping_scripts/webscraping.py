@@ -38,7 +38,7 @@ while True:
 with open("html_scripts/test.html", "wb") as file:
     file.write( wd.page_source.encode('utf-8')) 
 
-with open("html_scripts/test.html","rb") as file:
+with open("./html_scripts/test.html","rb") as file:
     context = file.read()
     soup = BeautifulSoup(context,'lxml')
     main_div = soup.findAll("div", attrs={"class":"b-list-advert__item-wrapper"})
@@ -63,13 +63,13 @@ with open("html_scripts/test.html","rb") as file:
 import csv
 from csv import writer
 for i in range(len(item_attr)):
-    with open("html_scripts/test2.html","wb") as file:
+    with open("./html_scripts/test2.html","wb") as file:
     
 
         file.write((f"{item_attr[i]}").encode('utf-8'))
 
         file.close()
-        with open("html_scripts/test2.html","r" ,encoding="UTF-8") as file:
+        with open("./html_scripts/test2.html","r" ,encoding="UTF-8") as file:
             content = file.read()
             soup = BeautifulSoup(content,"lxml")
             x = soup.findAll("div")
@@ -83,7 +83,7 @@ for i in range(len(item_attr)):
                 #print(i.text)
                 j2.append(i.text.replace("\n","").replace("    ",""))
 
-            with open('csv_files/jiji.csv', 'a') as f_object:
+            with open('./csv_files/jiji.csv', 'a') as f_object:
 
                 # Pass this file object to csv.writer()
                 # and get a writer object
