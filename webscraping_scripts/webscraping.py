@@ -16,7 +16,7 @@ year_max = ""
 year_min = ""
 base_url = f"https://jiji.co.ke/{category}?query={search_Query}&filter_attr_1_make={filter_1}&filter_attr_2_model={filter_2}&filter_attr_119_year_of_manufacture__min={year_min}&filter_attr_119_year_of_manufacture__max={year_max}"
 base_url2 = "https://jiji.co.ke/cars"
-driver_url = r"./webdriver/geckodriver"
+driver_url = r"/webdriver/geckodriver"
 wd = webdriver.Firefox(executable_path=driver_url)
 wd.get(base_url)
 time.sleep(2)  # Allow 2 seconds for the web page to open
