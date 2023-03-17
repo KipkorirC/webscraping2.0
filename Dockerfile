@@ -16,5 +16,5 @@ RUN echo "Making sure pandas is installed correctly..."
 RUN python -c "import pandas"
  
 # Python program to run in the container
-COPY webscraping_scripts\webscraping.py .
+COPY webscraping_scripts/webscraping.py .
 ENTRYPOINT ["conda", "run", "-n", "minimalds", "python", "webscraping.py"]
