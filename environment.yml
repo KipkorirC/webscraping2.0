@@ -8,5 +8,4 @@ dependencies:
   - pandas
   - beautifulsoup4
   - selenium
-  - time
   - numpy
